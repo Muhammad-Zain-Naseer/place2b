@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 52" fill="none">
+  <rect x="0" y="0" width="48" height="48" rx="8" fill="#0072b7"/>
+  <path d="M24 8 L40 20 L40 44 L8 44 L8 20 Z" fill="white" opacity="0.9"/>
+  <rect x="18" y="30" width="12" height="14" fill="#0072b7"/>
+  <text x="56" y="34" font-family="'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#0072b7">いい任売.jp</text>
+</svg>

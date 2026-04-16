@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>いい任売.jp | 任意売却の相談2,500組。売却の先にある暮らしを支えます</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <p>売却をおすすめしない場合もあります。相談だけで終わった方も大勢います。それでいいんです。しつこい営業は一切しません</p>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#" class="header__logo">
+        <img src="assets/images/logo.svg" alt="いい任売.jp" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="header__logo-text" style="display:none">🏠 いい任売.jp</span>
+      </a>
+      <nav class="header__nav">
+        <a href="#" class="btn btn--line">
+          <span class="btn__icon">LINE</span>
+          LINEで相談
+        </a>
+        <div class="header__phone">
+          <span class="header__phone-label">24時間・年中無休・学生相談可</span>
+          <a href="tel:0800-222-1281" class="header__phone-number">0800-222-1281</a>
+        </div>
+        <a href="#contact" class="btn btn--mail">
+          <span class="btn__icon">✉</span>
+          メールで相談
+        </a>
+      </nav>
+      <button class="header__hamburger" id="hamburger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#" class="btn btn--line btn--full">LINEで相談</a>
+      <a href="tel:0800-222-1281" class="btn btn--phone btn--full">0800-222-1281</a>
+      <a href="#contact" class="btn btn--mail btn--full">メールで相談</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <!-- Toggle Buttons -->
+    <div class="hero__toggle">
+      <button class="hero__toggle-btn active" data-target="hero1">任意売却を検討中の方</button>
+      <button class="hero__toggle-btn" data-target="hero2">住宅ローンでお困りの方</button>
+    </div>
+
+    <!-- Hero Variant 1 -->
+    <div class="hero__variant active" id="hero1">
+      <div class="hero__bg"></div>
+      <div class="hero__inner container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            任意売却の相談<span class="hero__highlight">2,500組</span>。<br>
+            売却の先にある暮らしを支えます
+          </h1>
+          <p class="hero__desc">
+            家財の見直し、引越し先探し、弁護士の紹介、青春の立場、<br>
+            相談から売主見までワンストップで対応します。
+          </p>
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <span class="hero__stat-label">解決実績</span>
+              <span class="hero__stat-number">2,500<small>組超</small></span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-label">任意売却専門</span>
+              <span class="hero__stat-number">20<small>年</small></span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-label">解決事例数</span>
+              <span class="hero__stat-number">全国<small>最大級</small></span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-label">テレビ神奈川</span>
+              <span class="hero__stat-number">CM<small>放映中</small></span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-label">24時間年中無休</span>
+              <span class="hero__stat-number">年中<small>無休</small></span>
+            </div>
+            <div class="hero__stat hero__stat--accent">
+              <span class="hero__stat-label">手続き</span>
+              <span class="hero__stat-number">自己負担金<small>0円</small></span>
+            </div>
+          </div>
+          <div class="hero__cta">
+            <p class="hero__cta-label">無料で相談する</p>
+            <div class="hero__cta-buttons">
+              <a href="#" class="btn btn--line btn--lg">
+                <span class="btn__icon">LINE</span>LINEで相談
+              </a>
+              <a href="tel:0800-222-1281" class="btn btn--phone btn--lg">
+                <span class="btn__icon">📞</span>
+                <span>
+                  <small>24時間・年中無休学生相談可</small>
+                  <strong>0800-222-1281</strong>
+                </span>
+              </a>
+              <a href="#contact" class="btn btn--mail btn--lg">
+                <span class="btn__icon">✉</span>メールで相談
+              </a>
+            </div>
+            <p class="hero__cta-note">売却をおすすめしない場合もあります。まず状況をお聞かせください</p>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="assets/images/hero-person1.png" alt="任意売却の相談" onerror="this.src='https://placehold.co/500x600/0072b7/ffffff?text=相談者'">
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Variant 2 -->
+    <div class="hero__variant" id="hero2">
+      <div class="hero__bg hero__bg--2"></div>
+      <div class="hero__inner container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            住宅ローンの問題、<br>
+            <span class="hero__highlight">20年で2,500組</span>を<br>
+            解決してきました
+          </h1>
+          <p class="hero__desc">
+            売るだけではありません。<br>
+            まず状況をお聞かせください。あなたに合った方法を一緒に考えます。
+          </p>
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <span class="hero__stat-label">相談実績</span>
+              <span class="hero__stat-number">2,500<small>組超</small></span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-label">任意売却専門</span>
+              <span class="hero__stat-number">20<small>年の経験</small></span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-label">テレビ神奈川</span>
+              <span class="hero__stat-number">CM<small>放映中</small></span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-label">国土交通大臣</span>
+              <span class="hero__stat-number">免許<small>取得</small></span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-label">24時間年中無休</span>
+              <span class="hero__stat-number">相談<small>無料</small></span>
+            </div>
+            <div class="hero__stat hero__stat--accent">
+              <span class="hero__stat-label">手続き</span>
+              <span class="hero__stat-number">自己負担金<small>0円</small></span>
+            </div>
+          </div>
+          <div class="hero__cta">
+            <p class="hero__cta-label">無料で相談する</p>
+            <div class="hero__cta-buttons">
+              <a href="#" class="btn btn--line btn--lg">
+                <span class="btn__icon">LINE</span>LINEで相談
+              </a>
+              <a href="tel:0800-222-1281" class="btn btn--phone btn--lg">
+                <span class="btn__icon">📞</span>
+                <span>
+                  <small>24時間・年中無休学生相談可</small>
+                  <strong>0800-222-1281</strong>
+                </span>
+              </a>
+              <a href="#contact" class="btn btn--mail btn--lg">
+                <span class="btn__icon">✉</span>メールで相談
+              </a>
+            </div>
+            <p class="hero__cta-note">売却をおすすめしない場合もあります。相談だけでもOKです。</p>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="assets/images/hero-person2.png" alt="住宅ローンの相談" onerror="this.src='https://placehold.co/500x600/0072b7/ffffff?text=相談者'">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features section" id="features">
+    <div class="container">
+      <h2 class="section__title">私たちが選ばれる理由</h2>
+      <div class="section__line"></div>
+      <div class="features__grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <img src="assets/images/icon-expert.svg" alt="" onerror="this.src='https://placehold.co/80x80/0072b7/ffffff?text=専門'">
+          </div>
+          <h3 class="feature-card__title">任意売却専門20年</h3>
+          <p class="feature-card__desc">任意売却に特化して20年以上の専門実績。全国最大級の解決事例数を持つプロ集団です。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <img src="assets/images/icon-free.svg" alt="" onerror="this.src='https://placehold.co/80x80/0072b7/ffffff?text=無料'">
+          </div>
+          <h3 class="feature-card__title">自己負担金0円</h3>
+          <p class="feature-card__desc">手続きにかかる費用は一切いただきません。相談から解決まで完全無料でサポートします。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <img src="assets/images/icon-24h.svg" alt="" onerror="this.src='https://placehold.co/80x80/0072b7/ffffff?text=24h'">
+          </div>
+          <h3 class="feature-card__title">24時間・年中無休</h3>
+          <p class="feature-card__desc">深夜・休日を問わず相談を受け付けています。急を要する状況でも、すぐに対応します。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <img src="assets/images/icon-support.svg" alt="" onerror="this.src='https://placehold.co/80x80/0072b7/ffffff?text=支援'">
+          </div>
+          <h3 class="feature-card__title">売却後の生活も支援</h3>
+          <p class="feature-card__desc">売却後の引越し先探しや生活再建まで、専門スタッフがワンストップでサポートします。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <img src="assets/images/icon-law.svg" alt="" onerror="this.src='https://placehold.co/80x80/0072b7/ffffff?text=法律'">
+          </div>
+          <h3 class="feature-card__title">弁護士・司法書士と連携</h3>
+          <p class="feature-card__desc">法律の専門家とのネットワークを活かし、複雑なケースも適切に対処します。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <img src="assets/images/icon-tv.svg" alt="" onerror="this.src='https://placehold.co/80x80/0072b7/ffffff?text=TV'">
+          </div>
+          <h3 class="feature-card__title">テレビ神奈川CM放映中</h3>
+          <p class="feature-card__desc">地元メディアにも認められた信頼性。地域密着型のサポートで安心してご相談いただけます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="about">
+    <div class="container">
+      <h2 class="section__title">あなたの再スタートを、20年の経験と実績で支えます</h2>
+      <div class="section__line"></div>
+      <p class="section__subtitle">ひとりで悩む前にまず、気軽にご相談ください。</p>
+      <div class="about__content">
+        <div class="about__text">
+          <p>任意売却とは、住宅ローンの返済が困難になったときに、金融機関と協議のうえ、市場価格に近い価格で不動産を売却する方法です。</p>
+          <p>競売と異なり、売却のタイミングや価格などに依頼者の意向を反映させやすく、近隣への影響も少なく済みます。</p>
+          <p>私たちは任意売却に特化して20年以上、全国で2,500組以上の相談を解決してきました。売却後の生活再建まで、ワンストップでサポートいたします。</p>
+        </div>
+        <div class="about__stats">
+          <div class="about__stat">
+            <span class="about__stat-number">2,500<small>組超</small></span>
+            <span class="about__stat-label">解決実績</span>
+          </div>
+          <div class="about__stat">
+            <span class="about__stat-number">20<small>年</small></span>
+            <span class="about__stat-label">任意売却専門歴</span>
+          </div>
+          <div class="about__stat">
+            <span class="about__stat-number">0<small>円</small></span>
+            <span class="about__stat-label">自己負担金</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stories Section -->
+  <section class="stories section" id="stories">
+    <div class="container">
+      <h2 class="section__title">ご相談者様たちのストーリー</h2>
+      <div class="section__line"></div>
+      <p class="section__subtitle">住宅ローンの悩みは、一人ひとり異なります。私たちは不動産を売るだけでなく、その先にある『当たり前の日常』を取り戻すお手伝いをしてきました。</p>
+      <div class="stories__slider" id="storiesSlider">
+        <div class="stories__track" id="storiesTrack">
+          <div class="story-card">
+            <div class="story-card__tag">事例１</div>
+            <h3 class="story-card__title">離婚後に住宅ローンが払えなくなった</h3>
+            <p class="story-card__desc">離婚後、単独でローンを抱えることになり、収入では到底払えない状況に。競売が迫る中、任意売却で解決し、新生活をスタートできました。</p>
+            <div class="story-card__result">自己負担金0円で解決</div>
+          </div>
+          <div class="story-card">
+            <div class="story-card__tag">事例２</div>
+            <h3 class="story-card__title">失業でローンの支払いが困難に</h3>
+            <p class="story-card__desc">突然の失業でローンが払えなくなり、精神的に追い詰められていました。相談から1ヶ月以内に売却が完了し、引越し費用も確保できました。</p>
+            <div class="story-card__result">引越し費用も確保</div>
+          </div>
+          <div class="story-card">
+            <div class="story-card__tag">事例３</div>
+            <h3 class="story-card__title">病気で収入が激減した夫婦</h3>
+            <p class="story-card__desc">ご主人の病気で収入が半減。毎月の支払いが苦しくなり、競売通知も届いていた状況から、任意売却で落ち着いた生活を取り戻せました。</p>
+            <div class="story-card__result">競売回避に成功</div>
+          </div>
+          <div class="story-card">
+            <div class="story-card__tag">事例４</div>
+            <h3 class="story-card__title">オーバーローン物件の売却</h3>
+            <p class="story-card__desc">購入時より大幅に価値が下がった物件。残債が多く途方に暮れていましたが、金融機関との交渉で残債の一部免除を実現しました。</p>
+            <div class="story-card__result">残債の一部免除実現</div>
+          </div>
+          <div class="story-card">
+            <div class="story-card__tag">事例５</div>
+            <h3 class="story-card__title">競売直前でも間に合った</h3>
+            <p class="story-card__desc">競売の入札期日まで1週間という状況でも諦めずに相談。緊急対応で任意売却を成立させ、競売を回避することができました。</p>
+            <div class="story-card__result">入札1週間前から解決</div>
+          </div>
+          <div class="story-card">
+            <div class="story-card__tag">事例６</div>
+            <h3 class="story-card__title">連帯保証人を守りたい</h3>
+            <p class="story-card__desc">親が連帯保証人になっており、迷惑をかけたくないと悩んでいました。早期対応により、保証人への影響を最小限に抑えることができました。</p>
+            <div class="story-card__result">保証人への影響を最小化</div>
+          </div>
+          <div class="story-card">
+            <div class="story-card__tag">事例７</div>
+            <h3 class="story-card__title">任意売却後も住み続けたい</h3>
+            <p class="story-card__desc">子どもの学区を変えたくないと希望。売却後もリースバックで同じ家に住み続けることができ、子どもたちも安心して暮らしています。</p>
+            <div class="story-card__result">リースバックで継続居住</div>
+          </div>
+        </div>
+      </div>
+      <div class="stories__dots" id="storiesDots"></div>
+      <div class="stories__arrows">
+        <button class="stories__arrow stories__arrow--prev" id="storiesPrev">&#8592;</button>
+        <button class="stories__arrow stories__arrow--next" id="storiesNext">&#8594;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team section" id="team">
+    <div class="container">
+      <h2 class="section__title">担当するのは、この人たちです</h2>
+      <div class="section__line"></div>
+      <p class="section__subtitle">人生の一大事を預ける相手の顔が見えなければ、安心できないはず。</p>
+      <div class="team__grid">
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-01.jpg" alt="スタッフ1" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">田中 太郎</p>
+          <p class="team-member__role">任意売却専門アドバイザー</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-02.jpg" alt="スタッフ2" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">山田 花子</p>
+          <p class="team-member__role">任意売却専門アドバイザー</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-03.jpg" alt="スタッフ3" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">鈴木 一郎</p>
+          <p class="team-member__role">不動産コンサルタント</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-04.jpg" alt="スタッフ4" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">佐藤 美咲</p>
+          <p class="team-member__role">ライフプランナー</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-05.jpg" alt="スタッフ5" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">伊藤 健司</p>
+          <p class="team-member__role">任意売却専門アドバイザー</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-06.jpg" alt="スタッフ6" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">渡辺 亜紀</p>
+          <p class="team-member__role">不動産コンサルタント</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-07.jpg" alt="スタッフ7" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">中村 浩二</p>
+          <p class="team-member__role">任意売却専門アドバイザー</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-08.jpg" alt="スタッフ8" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">小林 由美</p>
+          <p class="team-member__role">ライフプランナー</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-09.jpg" alt="スタッフ9" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">加藤 翔太</p>
+          <p class="team-member__role">不動産コンサルタント</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-10.jpg" alt="スタッフ10" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">吉田 奈々</p>
+          <p class="team-member__role">任意売却専門アドバイザー</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-11.jpg" alt="スタッフ11" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">山本 大輔</p>
+          <p class="team-member__role">不動産コンサルタント</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-12.jpg" alt="スタッフ12" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">松本 さくら</p>
+          <p class="team-member__role">ライフプランナー</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-13.jpg" alt="スタッフ13" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">井上 正樹</p>
+          <p class="team-member__role">任意売却専門アドバイザー</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-14.jpg" alt="スタッフ14" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">木村 恵子</p>
+          <p class="team-member__role">不動産コンサルタント</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-15.jpg" alt="スタッフ15" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">林 俊介</p>
+          <p class="team-member__role">任意売却専門アドバイザー</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team-16.jpg" alt="スタッフ16" onerror="this.src='https://placehold.co/200x240/e6edfa/0072b7?text=スタッフ'">
+          </div>
+          <p class="team-member__name">清水 麗奈</p>
+          <p class="team-member__role">ライフプランナー</p>
+        </div>
+      </div>
+      <p class="team__note">※女性スタッフも在籍しています。</p>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="process section" id="process">
+    <div class="process__bg">
+      <div class="container">
+        <h2 class="section__title section__title--white">ご相談の流れ</h2>
+        <div class="section__line section__line--white"></div>
+        <div class="process__steps">
+          <div class="process__step">
+            <div class="process__step-num">STEP<span>01</span></div>
+            <div class="process__step-icon">📞</div>
+            <h3 class="process__step-title">まずはご相談</h3>
+            <p class="process__step-desc">電話・LINE・メールでお気軽にご連絡ください。24時間・年中無休で受け付けています。</p>
+          </div>
+          <div class="process__arrow">›</div>
+          <div class="process__step">
+            <div class="process__step-num">STEP<span>02</span></div>
+            <div class="process__step-icon">🏠</div>
+            <h3 class="process__step-title">現状のヒアリング</h3>
+            <p class="process__step-desc">ローン残高や物件の状況、今後のご希望など、詳しくお聞きします。</p>
+          </div>
+          <div class="process__arrow">›</div>
+          <div class="process__step">
+            <div class="process__step-num">STEP<span>03</span></div>
+            <div class="process__step-icon">📋</div>
+            <h3 class="process__step-title">査定・プラン提案</h3>
+            <p class="process__step-desc">物件の査定を行い、お客様に最適な解決プランをご提案します。</p>
+          </div>
+          <div class="process__arrow">›</div>
+          <div class="process__step">
+            <div class="process__step-num">STEP<span>04</span></div>
+            <div class="process__step-icon">🤝</div>
+            <h3 class="process__step-title">金融機関と交渉</h3>
+            <p class="process__step-desc">債権者（金融機関）との交渉を代行。任意売却の許可を取得します。</p>
+          </div>
+          <div class="process__arrow">›</div>
+          <div class="process__step">
+            <div class="process__step-num">STEP<span>05</span></div>
+            <div class="process__step-icon">🏷️</div>
+            <h3 class="process__step-title">売却活動</h3>
+            <p class="process__step-desc">市場に近い価格での売却を目指し、買主を探します。内覧対応もサポートします。</p>
+          </div>
+          <div class="process__arrow">›</div>
+          <div class="process__step">
+            <div class="process__step-num">STEP<span>06</span></div>
+            <div class="process__step-icon">✅</div>
+            <h3 class="process__step-title">引渡し・新生活へ</h3>
+            <p class="process__step-desc">売却完了後も、引越し先探しや生活再建のサポートを続けます。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <h2 class="section__title">よくあるご質問</h2>
+      <div class="section__line"></div>
+      <div class="faq__list">
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span class="faq__q-mark">Q</span>
+            <span>任意売却とは何ですか？</span>
+            <span class="faq__arrow">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>任意売却とは、住宅ローンの返済が困難になった際に、金融機関の同意を得て市場価格に近い価格で不動産を売却する方法です。競売よりも高い価格での売却が期待でき、プライバシーも守られます。</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span class="faq__q-mark">Q</span>
+            <span>費用はかかりますか？</span>
+            <span class="faq__arrow">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>相談から売却完了まで、お客様の自己負担は一切ありません。仲介手数料等の費用は売却代金の中から清算されます。</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span class="faq__q-mark">Q</span>
+            <span>競売との違いは何ですか？</span>
+            <span class="faq__arrow">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>競売は裁判所が強制的に売却するため、市場価格より大幅に安くなります（60〜70%程度）。任意売却は市場価格に近い金額での売却が可能で、引越し費用の確保もできます。また、近隣に知られる可能性が低いです。</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span class="faq__q-mark">Q</span>
+            <span>どのくらいの期間がかかりますか？</span>
+            <span class="faq__arrow">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>通常3〜6ヶ月程度です。ただし、競売の開始が迫っている場合でも、状況によっては数週間で解決できるケースもあります。</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span class="faq__q-mark">Q</span>
+            <span>売却後の残債はどうなりますか？</span>
+            <span class="faq__arrow">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>売却代金でローンを完済できない場合、残った債務（残債）については金融機関と交渉します。分割払いや一部免除など、無理なく返済できる条件を交渉します。</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span class="faq__q-mark">Q</span>
+            <span>住み続けることはできますか？</span>
+            <span class="faq__arrow">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>リースバックという方法を利用すれば、売却後も賃貸として同じ家に住み続けることが可能な場合があります。子どもの学区を変えたくない方などに適した方法です。</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span class="faq__q-mark">Q</span>
+            <span>連帯保証人がいますが大丈夫ですか？</span>
+            <span class="faq__arrow">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>連帯保証人への影響を最小限に抑えられるよう対応します。早めにご相談いただくほど、選択肢が広がります。まずはご連絡ください。</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span class="faq__q-mark">Q</span>
+            <span>相談だけでもいいですか？</span>
+            <span class="faq__arrow">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>もちろんです。売却をおすすめしない場合もあります。相談だけで終わった方も大勢います。それでいいんです。しつこい営業は一切しません。まずは気軽にご連絡ください。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- President Message Section -->
+  <section class="president section" id="president">
+    <div class="container">
+      <h2 class="section__title">代表メッセージ</h2>
+      <div class="section__line"></div>
+      <div class="president__content">
+        <div class="president__photo">
+          <img src="assets/images/president.jpg" alt="代表 江頭 徹" onerror="this.src='https://placehold.co/300x400/e6edfa/0072b7?text=代表'">
+          <p class="president__name">代表取締役<br><strong>江頭 徹</strong></p>
+        </div>
+        <div class="president__message">
+          <p>住宅ローンの問題を抱えているとき、多くの方が「誰にも相談できない」「どうすればいいか分からない」という孤独な状況に置かれます。</p>
+          <p>私たちは20年以上、そのような方々に寄り添い、一緒に解決策を探してきました。2,500組を超える実績は、一件一件のお客様との真剣な向き合いの積み重ねです。</p>
+          <p>不動産を売ることがゴールではありません。売却の先にある、皆様の「当たり前の日常」を取り戻すことが私たちの使命です。</p>
+          <p>ひとりで悩まずに、まずご連絡ください。一緒に考えましょう。</p>
+          <p class="president__signature">株式会社イースタイル 代表取締役　江頭 徹</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <h2 class="section__title">あなたの再スタートを、20年の経験と実績で支えます</h2>
+      <div class="section__line"></div>
+      <p class="section__subtitle">ひとりで悩む前にまず、気軽にご相談ください。</p>
+      <p class="contact__note">売却をおすすめしない場合もあります。相談だけで終わった方も大勢います。それでいいんです。しつこい営業は一切しません</p>
+      <div class="contact__cta">
+        <a href="#" class="btn btn--line btn--xl">
+          <span class="btn__icon">LINE</span>LINEで相談
+        </a>
+        <a href="tel:0800-222-1281" class="btn btn--phone btn--xl">
+          <span class="btn__icon">📞</span>
+          <span>
+            <small>24時間・年中無休学生相談可</small>
+            <strong>0800-222-1281</strong>
+          </span>
+        </a>
+      </div>
+      <div class="contact__divider">
+        <span>または</span>
+      </div>
+      <h3 class="contact__form-title">メールフォーム</h3>
+      <form class="contact__form" id="contactForm" novalidate>
+        <div class="form-group">
+          <label class="form-label" for="name">お名前 <span class="form-required">必須</span></label>
+          <input class="form-input" type="text" id="name" name="name" placeholder="例：山田 太郎" required>
+          <span class="form-error" id="nameError"></span>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">メールアドレス <span class="form-required">必須</span></label>
+          <input class="form-input" type="email" id="email" name="email" placeholder="例：example@email.com" required>
+          <span class="form-error" id="emailError"></span>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="phone">電話番号 <span class="form-required">必須</span></label>
+          <input class="form-input" type="tel" id="phone" name="phone" placeholder="例：090-1234-5678" required>
+          <span class="form-error" id="phoneError"></span>
+        </div>
+        <div class="form-group">
+          <label class="form-label">ご希望の連絡方法</label>
+          <div class="form-radio-group">
+            <label class="form-radio">
+              <input type="radio" name="contact_method" value="email" checked>
+              <span>メール</span>
+            </label>
+            <label class="form-radio">
+              <input type="radio" name="contact_method" value="phone">
+              <span>電話</span>
+            </label>
+            <label class="form-radio">
+              <input type="radio" name="contact_method" value="line">
+              <span>LINE</span>
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="message">お問い合わせ内容</label>
+          <textarea class="form-textarea" id="message" name="message" rows="5" placeholder="ご状況やご質問をご記入ください"></textarea>
+        </div>
+        <button class="btn btn--submit" type="submit">送信する</button>
+        <p class="contact__privacy">個人情報の取り扱いについては<a href="#">プライバシーポリシー</a>をご確認ください。</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container">
+        <div class="footer__logo">
+          <img src="assets/images/logo-white.svg" alt="いい任売.jp" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+          <span style="display:none; color:#fff; font-size:24px; font-weight:700;">🏠 いい任売.jp</span>
+        </div>
+        <div class="footer__phone">
+          <a href="tel:0800-222-1281" class="footer__tel">TEL : 0800-222-1281</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p class="footer__company">運営会社：株式会社イースタイル　所在地：神奈川県川崎市川崎区砂子１-5-3　代表：江頭 徹</p>
+        <p class="footer__copy">©︎ E-Style Co., Ltd.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating CTA (mobile) -->
+  <div class="floating-cta" id="floatingCta">
+    <a href="#" class="floating-cta__btn floating-cta__btn--line">LINE</a>
+    <a href="tel:0800-222-1281" class="floating-cta__btn floating-cta__btn--phone">電話</a>
+    <a href="#contact" class="floating-cta__btn floating-cta__btn--mail">メール</a>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
